@@ -199,9 +199,11 @@ a {
 .hero {
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    padding-top: 80px;
+    padding-top: 140px;
+    padding-bottom: 60px;
     overflow: hidden;
 }
 
