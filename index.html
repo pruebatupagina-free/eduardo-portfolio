@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Cardenas | Desarrollador de Software & IA</title>
+    <meta name="description" content="Portafolio de Eduardo Cardenas, Desarrollador de Software graduado de la Universidad Tecnológica de Santa Catarina. Especialista en Desarrollo Web e Inteligencia Artificial.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-code">&lt;EC/&gt;</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#proyectos">Proyectos Web & IA</a>
+                <a href="#contacto" class="btn btn-outline">Contactar</a>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="#inicio" class="mobile-link">Inicio</a>
+            <a href="#sobre-mi" class="mobile-link">Sobre Mí</a>
+            <a href="#proyectos" class="mobile-link">Proyectos Web & IA</a>
+            <a href="#contacto" class="btn btn-primary mobile-link">Contactar</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-sphere"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container hero-content reveal">
+            <p class="greeting">Hola, soy</p>
+            <h1 class="hero-title">Eduardo Cardenas</h1>
+            <h2 class="hero-subtitle">Desarrollador de Software <span class="text-accent">&</span> Especialista en Web/IA</h2>
+            <p class="hero-desc">Transformo ideas complejas en soluciones tecnológicas elegantes. Creando el futuro de la web impulsada por Inteligencia Artificial.</p>
+            
+            <div class="hero-cta">
+                <a href="#proyectos" class="btn btn-primary btn-large">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline btn-large">Hablemos</a>
+            </div>
+            
+            <div class="tech-stack">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">OpenAI API</span>
+                <span class="tech-tag">Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi" class="about section-padding bg-dark">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <p>Soy un Desarrollador de Software apasionado por la innovación y la creación de productos digitales que generan un impacto real. Soy <strong>orgullosamente graduado de la Universidad Tecnológica de Santa Catarina</strong>, donde adquirí bases sólidas en ingeniería de software y resolución de problemas complejos.</p>
+                    <p>Mi enfoque principal está en la intersección entre el Desarrollo Web moderno y la Inteligencia Artificial. Me especializo en construir aplicaciones web que no solo se ven bien y son rápidas, sino que también integran modelos de IA para automatizar tareas, predecir comportamientos y ofrecer experiencias de usuario hiper-personalizadas.</p>
+                    
+                    <div class="stats-grid mt-4">
+                        <div class="stat-box">
+                            <h3>🎓 Formación</h3>
+                            <p>Universidad Tecnológica de Santa Catarina</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>💻 Enfoque</h3>
+                            <p>Arquitectura Web & Integración de LLMs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal" style="transition-delay: 200ms;">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-body">
+<pre><code>const developer = {
+  name: 'Eduardo Cardenas',
+  role: 'Software Developer',
+  education: 'UT Santa Catarina',
+  skills: ['Web Dev', 'AI/ML', 'APIs'],
+  passion: 'Building scalable AI apps',
+  
+  solveProblem: function(problem) {
+    return this.analyze(problem)
+           .then(designSolution)
+           .then(codeIt)
+           .then(deploy);
+  }
+};
+
+developer.solveProblem(world.challenges);</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos" class="projects section-padding">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <h2 class="section-title">Proyectos Destacados (Web & IA)</h2>
+                <p class="section-subtitle">Una selección de aplicaciones web impulsadas por Inteligencia Artificial.</p>
+            </div>
+
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <div class="project-card reveal">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-folder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></span>
+                        </div>
+                        <h3 class="project-title">NeuroChat CRM</h3>
+                        <p class="project-desc">Sistema CRM web que utiliza Procesamiento de Lenguaje Natural (NLP) para analizar el sentimiento de los correos y mensajes de los clientes, priorizando automáticamente los tickets urgentes o clientes insatisfechos.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>OpenAI API</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card reveal" style="transition-delay: 100ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-folder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></span>
+                        </div>
+                        <h3 class="project-title">Visionary E-commerce</h3>
+                        <p class="project-desc">Plataforma de comercio electrónico con un motor de recomendación visual. Los usuarios suben una foto de una prenda y la IA (Visión Computacional) busca productos similares en el inventario de la tienda en milisegundos.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card reveal" style="transition-delay: 200ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-folder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></span>
+                        </div>
+                        <h3 class="project-title">DocuMind Legal Assistant</h3>
+                        <p class="project-desc">Herramienta web diseñada para despachos de abogados. Los usuarios suben contratos largos en PDF y un LLM entrenado extrae las cláusulas de riesgo, fechas de vencimiento y genera un resumen ejecutivo de 1 página.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>FastAPI</span>
+                            <span>LangChain</span>
+                            <span>Pinecone</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card reveal">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-folder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></span>
+                        </div>
+                        <h3 class="project-title">FinPredict Dashboard</h3>
+                        <p class="project-desc">Dashboard financiero interactivo que procesa datos históricos de ventas de PyMEs y utiliza modelos de series temporales (Prophet) para predecir el flujo de caja de los próximos 3 meses, visualizado con gráficos dinámicos.</p>
+                        <div class="project-tech">
+                            <span>Svelte</span>
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card reveal" style="transition-delay: 100ms;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-folder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>
+                        </div>
+                        <h3 class="project-title">AutoAgent Support Web</h3>
+                        <p class="project-desc">Un widget de soporte técnico incrustable para cualquier sitio web. Implementa agentes autónomos basados en la base de conocimientos de la empresa que pueden resolver problemas técnicos paso a paso sin intervención humana.</p>
+                        <div class="project-tech">
+                            <span>Vanilla JS</span>
+                            <span>Express</span>
+                            <span>RAG Architecture</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact section-padding bg-dark text-center">
+        <div class="container">
+            <h2 class="section-title">¿Listo para construir el futuro?</h2>
+            <p class="section-subtitle text-muted" style="max-width: 600px; margin: 0 auto 40px;">Si estás buscando un desarrollador para construir aplicaciones web de alto rendimiento o integrar IA en tus procesos de negocio, escríbeme.</p>
+            
+            <a href="mailto:contacto@ejemplo.com" class="btn btn-primary btn-large">Enviarme un Correo</a>
+            
+            <div class="social-links mt-4">
+                <a href="#" class="social-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Eduardo Cardenas. Desarrollado con tecnología web moderna.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
